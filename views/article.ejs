@@ -1,0 +1,12 @@
+<%- include('header') -%>
+    <main>
+        <% articles.forEach(function(item){ %>
+            <h3 class="articleTitle">
+                <%= item.Title.toString() %>
+            </h3>
+            <p class="articleDescription">
+                <%= item.Description.toString() %>
+            </p>
+            <% }) %>
+    </main>
+<%- include('footer') -%>
