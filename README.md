@@ -1,1 +1,1 @@
-A RESTful API project called wikiAPI. A wiki that fetches articles of my projects.
+A RESTful API project called wikiAPI. A wiki that fetches articles of my projects. The API uses Express for GET, POST, PUT, PATCH, DELETE.
